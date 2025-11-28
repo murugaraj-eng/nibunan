@@ -69,9 +69,9 @@ resource "oci_core_instance" "example_instance" {
     source_id   = data.oci_core_images.oracle_linux.id
   }
 
-  metadata = {
-    ssh_authorized_keys = file("~/.ssh/id_rsa.pub")
-  }
+#  metadata = {
+ #   ssh_authorized_keys = file("~/.ssh/id_rsa.pub")
+#  }
 }
 
 # Get Availability Domains
