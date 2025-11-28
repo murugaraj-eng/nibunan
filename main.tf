@@ -44,7 +44,7 @@ resource "oci_core_route_table" "example_rt" {
 
 # Update Subnet with Route Table
 resource "oci_core_subnet" "example_subnet_with_rt" {
-  cidr_block        = "10.0.1.0/24"
+  cidr_block        = "10.10.1.0/24"
   display_name      = "example-subnet"
   vcn_id            = oci_core_vcn.example_vcn.id
   compartment_id    = var.compartment_ocid
