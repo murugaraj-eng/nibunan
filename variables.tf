@@ -27,3 +27,8 @@ variable "compartment_ocid" {
   type        = string
   default     = "ocid1.compartment.oc1..aaaaaaaa5t75sxcdxlzfydz4ljjz6bwzzrmprpt6re6oshibsyieozxmsosa"
 }
+variable "private_key" {
+  description = "OCI API private key in PEM format"
+  type        = string
+  sensitive   = true
+}
