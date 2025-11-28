@@ -66,7 +66,7 @@ resource "oci_core_instance" "example_instance" {
 
   source_details {
     source_type = "image"
-    source_id   = ocid1.image.oc1.ap-hyderabad-1.aaaaaaaau3h2vfcaa6jwposxo35e7iqxt5wmmbgvdondfm6c2dczep5t2s2q
+    source_id   = data.oci_core_images.oracle_linux.images[0].id
   }
 
 #  metadata = {
