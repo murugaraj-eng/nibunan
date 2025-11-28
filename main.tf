@@ -84,4 +84,5 @@ data "oci_core_images" "oracle_linux" {
   compartment_id = var.compartment_ocid
   operating_system = "Oracle Linux"
   operating_system_version = "8"
+  shape = "VM.Standard.E2.1"
 }
