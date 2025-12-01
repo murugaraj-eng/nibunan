@@ -7,13 +7,13 @@ variable "tenancy_ocid" {
 variable "user_ocid" {
   description = "OCI user OCID"
   type        = string
-  default     = "ocid1.user.oc1..aaaaaaaanjnckzglk2fjel3uq7em4rpiz4ttufox7ss33x32isjkm6kz6ltq"
+  default     = "ocid1.user.oc1..aaaaaaaaciqxu6k6cfnpzqgjq36eiabotufu7ujzc3cq4popkmlbbqo6yida"
 }
 
 variable "fingerprint" {
   description = "API key fingerprint"
   type        = string
-  default     = "8b:47:fd:3c:11:94:fe:84:09:75:09:34:47:1c:dd:aa"
+  default     = "29:1f:55:58:3b:1c:90:ec:7e:1e:1b:86:51:c6:09:e4"
 }
 
 variable "region" {
@@ -25,7 +25,7 @@ variable "region" {
 variable "compartment_ocid" {
   description = "OCI compartment OCID"
   type        = string
-  default     = "ocid1.compartment.oc1..aaaaaaaa5t75sxcdxlzfydz4ljjz6bwzzrmprpt6re6oshibsyieozxmsosa"
+  default     = "ocid1.tenancy.oc1..aaaaaaaaztjcu7ullfmozcfqr4ir5xiqwk7hpiagzo4vbknezkbtv6ms63wq"
 }
 variable "private_key" {
   description = "OCI API private key in PEM format"
